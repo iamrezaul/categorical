@@ -1,3 +1,7 @@
+import math
+import pandas as pd
+
+
 def get_categorical(df, cols=None, fillna=0, binary=True):
     '''
     Returns categorical values (default binary)
